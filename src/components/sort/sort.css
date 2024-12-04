@@ -1,0 +1,11 @@
+.sorting-controls {
+    text-align: center;
+    position: static;
+}
+
+.sorting-controls select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

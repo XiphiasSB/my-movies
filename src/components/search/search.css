@@ -1,0 +1,18 @@
+.search-bar {
+    position: absolute;
+    /* Absolutely position the search bar */
+    left: 50%;
+    /* Move it to the center horizontally */
+    transform: translateX(-50%);
+    /* Adjust for its own width to make it truly centered */
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 60%;
+    max-width: 400px;
+}
