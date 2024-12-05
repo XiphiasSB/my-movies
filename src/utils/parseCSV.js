@@ -3,8 +3,6 @@ import Papa from "papaparse"
 const CSV_PATH = "./MyMoviesDB.csv"
 
 function porcessMovies(results) {
-    console.log("Raw Parsed Data:", results.data);
-
     return results.data
         .filter((row) => row["Title Type"] === "Movie") // Keep only movies
         .map((row) => ({

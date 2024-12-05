@@ -9,7 +9,7 @@ export function MovieCard({ title, year, rating, directors, url }) {
 		async function fetchPoster() {
 			try {
 				const response = await fetch(
-					`http://www.omdbapi.com/?t=${encodeURIComponent(title)}&y=${year}&apikey=${apiKey}`
+					`https://www.omdbapi.com/?t=${encodeURIComponent(title)}&y=${year}&apikey=${apiKey}`
 				)
 				const data = await response.json()
 				if (data.Poster && data.Poster !== "N/A") {
