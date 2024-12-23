@@ -1,7 +1,7 @@
 import "./title.css"
 
-export function Headline() {
+export function Title() {
     return(
-        <h2 className="headline"> My Rated Movies</h2>
+        <h2 className="title"> My Movie Ratings</h2>
     )
 }
